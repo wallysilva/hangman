@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>**The Hangman Game**</title>
+<link rel="stylesheet" type="text/css" href="hangman.css" media="screen">
+
+<script src="http://use.edgefonts.net/codystar:n4,n3:all.js">
+</script>
+<script src="http://use.edgefonts.net/codystar:n4,n3:all;germania-one:n4:all.js"></script>
+
+<body>
+    <h1>The Hangman Game</h1>
+    <br>
+    <p>
+        <label><span>Word: </span>
+				<span id='word' type='string'></span>
+			</label>
+    </p>
+    <p>
+        <label><span>Guess: </span>
+	<input autofocus id='guess' type='string'  placeholder=" _">
+    <input
+    value='Check'
+     type='button'
+id="check" >
+			</label>
+    </p>
+    <p>
+        <label><span>Status: </span>
+				<span id='status' type='string'></span>
+            </label>
+    </p>
+
+    <p><input src=replay.jpg type='image' alt='button' id='replay' value='Replay'>
+    </p>
+    <p>
+        <span id='status1' type='string'></span></p>
+    <p><span id='result'></span>
+    </p>
+
+</body>
+<script src="hangman.js"></script>
+
+</html>

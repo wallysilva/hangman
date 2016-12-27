@@ -1,0 +1,23 @@
+html {background-color: white}
+body {background: black;
+	color: white;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+	width: 329px;
+border: 5px solid cadetblue;
+	border-radius: 10px}
+
+h1 {font-size: 2.5em; font-family: codystar;font-weight:bolder; margin: 0 2% 0 1%; ;color:cornflowerblue;}
+
+p {margin: 10px;font-family: germania-one}
+
+input {margin: 5px; max-width: 100px; font-family: germania-one; font-size:larger}
+
+input#guess {max-width: 20px; text-indent:none; text-transform: uppercase}
+
+input#quit {float:right; margin-right:178px}
+
+span{margin: 3px; border-radius: 5px; border: 2px solid cadetblue; padding-left: 5px; padding-right: 5px;padding-top: 2px;padding-bottom: 3px; font-size:larger }
+
+span#word {text-transform:uppercase}
