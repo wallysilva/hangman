@@ -8,7 +8,7 @@ body {background: black;
 border: 5px solid cadetblue;
 	border-radius: 10px}
 
-h1 {font-size: 2.5em; font-family: codystar;font-weight:bolder; margin: 0 2% 0 1%; ;color:cornflowerblue;}
+h1 {font-size: 2.5em; 'Codystar', cursive; font-weight:bolder; margin: 0 2% 0 1%; ;color:cornflowerblue;}
 
 p {margin: 10px;font-family: germania-one}
 
